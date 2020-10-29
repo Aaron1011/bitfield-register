@@ -334,7 +334,6 @@ pub fn register(_: TokenStream, input: TokenStream) -> TokenStream {
         }
     };
 
-    #[derive(Debug)]
     let mut bitfields: Vec<BitField> = vec![];
 
     for field in &fields {
